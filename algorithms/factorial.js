@@ -32,3 +32,4 @@ function factorialize(num, factorial = 1) {
     return factorialize(num - 1, factorial * num);
   }
 }
+
