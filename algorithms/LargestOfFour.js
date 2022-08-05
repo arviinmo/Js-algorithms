@@ -24,3 +24,15 @@ function largestOfFour(arr) {
     });
   });
 }
+
+//thrid one
+function largestOfFour(arr) {
+  return arr.map(Function.apply.bind(Math.max, null));
+}
+
+//last solution
+function largestOfFour(arr, finalArr = []) {
+  return !arr.length
+    ? finalArr
+    : largestOfFour(arr.slice(1), finalArr.concat(Math.max(...arr[0])));
+}
