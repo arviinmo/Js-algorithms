@@ -18,3 +18,12 @@ function findElement(arr, func) {
   return arr.find(func);
 }
 
+//third solution
+function findElement(arr, func) {
+    return arr.length && !func(arr[0]) ? findElement(arr.slice(1), func) : arr[0];
+  }
+  
+  //using map() and indexof()
+  function findElement(arr, func) {
+    return arr[arr.map(func).indexOf(true)];
+  }
