@@ -12,6 +12,6 @@ collection of JavaScript algorithms and data structure for personal use!
 [Repeat A String num times](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/RepeatAString.js)<br/>
 [Title To UpperCase](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/TitleUpperCase.js)<br/>
 [Truncate A String](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/TruncateAString.js)<br/>
-[Find Longest Word Length](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/FindLongestWordLength.js)<br/>
-[Find Longest Word Length](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/FindLongestWordLength.js)<br/>
-[Find Longest Word Length](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/FindLongestWordLength.js)<br/>
+[factorial algorithm](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/factorial.js)<br/>
+[franken Splice](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/frankenSplice.js)<br/>
+[get Index To Ins](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/getIndexToIns.js)<br/>
