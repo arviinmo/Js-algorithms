@@ -15,3 +15,5 @@ collection of JavaScript algorithms and data structure for personal use!
 [factorial algorithm](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/factorial.js)<br/>
 [franken Splice](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/frankenSplice.js)<br/>
 [get Index To Ins](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/getIndexToIns.js)<br/>
+[chunky monkey algorithm](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/ChunkyMonkey.js)<br/>
+[Mutations](https://github.com/arviinmo/Js-algorithms/blob/main/algorithms/Mutations.js)<br/>
