@@ -134,5 +134,9 @@ for (let i = 0; i < watchList.length; i++) {
   });
 }
 
+// using parameter destructuring
+const ratings2 = watchList.map(({ Title: title, imdbRating: rating }) => ({title, rating}));
+
 
 console.log(JSON.stringify(ratings));
+console.log(JSON.stringify(ratings2));
