@@ -135,8 +135,17 @@ for (let i = 0; i < watchList.length; i++) {
 }
 
 // using parameter destructuring
-const ratings2 = watchList.map(({ Title: title, imdbRating: rating }) => ({title, rating}));
+const ratings2 = watchList.map(({ Title: title, imdbRating: rating }) => ({
+  title,
+  rating,
+}));
 
+// Using ES6 notation
+const ratings3 = watchList.map((item) => ({
+  title: item["Title"],
+  rating: item["imdbRating"],
+}));
 
 console.log(JSON.stringify(ratings));
 console.log(JSON.stringify(ratings2));
+console.log(JSON.stringify(ratings3));
